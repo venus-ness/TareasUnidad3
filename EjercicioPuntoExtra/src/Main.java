@@ -30,7 +30,7 @@ public class Main {
         sc.nextLine();
 
         if (nombre.matches(".\\d.")) {
-            System.out.println("Error. Formato de nombre b=no valido, no tiene que contener numeros.");
+            System.out.println("Error. Formato de nombre no valido, no tiene que contener numeros.");
         } else {
             if (puntaje < 600) {
                 System.out.println("Solicitud rechazada, puntaje muy bajo.");
@@ -55,8 +55,10 @@ public class Main {
                 double cuotaM = credito * ((r * Math.pow(1 + r, n)) / ((Math.pow(1 + r, n) - 1)));
                 String cuota = String.format("%.2f", cuotaM);
 
+                double montoTotal = cuotaM * n;
+
                 if (ingresos > (2.5 * cuotaM)) {
-                    System.out.println("Su cuota mensual es de: " + cuota + "," + " Su taza de interes es del 4%.");
+                    System.out.println(nombre.toUpperCase() + "," + " Su cuota mensual es de: " + cuota + "," + " Su taza de interes es del 4%." + "," + " Su monto total a pagar es: " + montoTotal);
                 } else {
                     System.out.println("Solicitud rechazada, ingresos muy bajos.");
                 }
