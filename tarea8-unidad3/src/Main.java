@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,20 +14,20 @@ public class Main {
         1. NUMEROS DEL 1 AL 10
          */
 
-/*
+
         int nu = 1;
 
         while (nu <= 10) {
-            System.out.println(n);
+            System.out.println(nu);
             nu++;
         }
 
- */
+
         /*
         2. SUMA DE LOS PRIMEROS 10 NUMEROS NATURALES
          */
 
-        /*
+
         int suma = 0; // Variable para almacenar la suma
         int numero = 1; // Variable de control que empieza en 1
 
@@ -38,13 +37,13 @@ public class Main {
         }
 
         System.out.println("La suma de los primeros 10 numeros naturales es: " + suma);
-         */
+
 
         /*
         3. CONTAR DIGITOS DE UN NUMERO
          */
 
-        /*
+
         System.out.println("Ingrese un numero entero");
         int numeroEntero = sc.nextInt();
 
@@ -57,13 +56,13 @@ public class Main {
 
         System.out.println("El numero tiene " + contador + " digitos.");
 
-         */
+
 
         /*
         4. IMPRIMIR NUMEROS PARES ENTRE 1 Y 20
          */
 
-        /*
+
         int numeroUno = 1;
 
         int numeroDos = 20;
@@ -77,13 +76,12 @@ public class Main {
             contadorUno++;
         }
 
-         */
+
 
         /*
         5. SUMAR DIGITOS DE UN NUMERO
          */
 
-        /*
 
         System.out.println("Ingrese un numero: ");
         int num = sc.nextInt();
@@ -98,13 +96,11 @@ public class Main {
 
         System.out.println("La suma de los digitos es: " + sumaAlmacen);
 
-         */
-
         /*
         6. MULTIPLOS DE UN NUMERO HASTA CIERTO LIMITE
          */
 
-        /*
+
         System.out.println("Ingrese el numero base");
         int nBase = sc.nextInt();
 
@@ -118,13 +114,13 @@ public class Main {
             multiplo += nBase; // Avanza al siguiente multiplo
         }
 
-         */
+
 
         /*
         7. IMPRIMIR LOS NUMEROS EN ORDEN INVERSO
          */
 
-        /*
+
         System.out.println("Ingrese un numero: ");
         int n = sc.nextInt();
 
@@ -133,13 +129,10 @@ public class Main {
             n--;
         }
 
-         */
 
         /*
         8. SUMAR SOLO LOS NUMEROS IMPRARES DE UN NUMERO DADO
          */
-
-        /*
 
         System.out.println("Ingrese un numero: ");
         int number = sc.nextInt();
@@ -158,13 +151,10 @@ public class Main {
         System.out.println("La suma de los digitos es: " + sumaImpares + "\n");
 
 
-         */
-
         /*
         9. CONTAR LAS VOCALES DE UNA CADENA
          */
 
-        /*
         System.out.println("Ingrese una palabra: ");
         String palabra = sc.nextLine().toLowerCase(); // Convertimos a minusculas para simplificar
 
@@ -179,7 +169,7 @@ public class Main {
 
         System.out.println("La cadena contiene " + contadorVocales + " vocales");
 
-         */
+
 
         /*
         10. DETERMINAR SI UN NUMERO ES PERFECTO
