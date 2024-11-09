@@ -9,12 +9,13 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese una cadena de longitud par: ");
-        String s = sc.nextLine();
+        String s = sc.nextLine().toLowerCase();
 
         if (s.length() % 2 != 0) {
             System.out.println("La longitud de la cadena debe ser par.");
             return;
         }
+
 
         int mitad = s.length() / 2;
         String a = s.substring(0, mitad);
@@ -34,7 +35,7 @@ public class Main {
             indiceA++;
         }
 
-        // COntamos las vocales en la segunda mitad
+        // Contamos las vocales en la segunda mitad
         while (indiceB < b.length()) {
             if (vocales.indexOf(b.charAt(indiceB)) != -1) {
                 contadorVocalesB++;
@@ -47,6 +48,8 @@ public class Main {
         } else {
             System.out.println("Falso. Subcadenas no contienen la misma cantidad de vocales");
         }
+
+
 
 
 
